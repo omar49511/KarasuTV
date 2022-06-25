@@ -4,7 +4,7 @@ pagina web para ver animes creada con el stack MERN
 ## Available Scripts
 
 
-En el directorio del proyecto, puedes ejecutar.\
+En el directorio del proyecto, puedes ejecutar
 ### `yarn install`
 
 Este comando descargara los archivos necesarios para ejecutar el proyecto

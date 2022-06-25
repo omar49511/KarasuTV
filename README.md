@@ -16,3 +16,4 @@ Abre [http://localhost:3000](http://localhost:3000) para verla en tu navegador.
 
 La página se recargará cuando hagas cambios.\
 También puedes ver cualquier error de lint en la consola.
+![image](https://user-images.githubusercontent.com/72781778/175756132-7ea744a8-00c1-4002-83b7-0c3d4b16a831.png)

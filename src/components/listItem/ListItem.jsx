@@ -9,7 +9,6 @@ import { useState } from "react";
 
 export default function ListItem({ index }) {
   const [isHovered, setIsHovered] = useState(false);
-  const trailer = "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761";
   const trailer2 = "https://user-images.githubusercontent.com/72781778/178127011-76ee7e16-126b-4bc1-bac7-5266e206a116.mp4";
   return (
     <div
@@ -24,16 +23,16 @@ export default function ListItem({ index }) {
       />
       {isHovered && (
         <>
-          <video src={trailer2} autoPlay={true} loop/>
+          <video src={trailer2} autoPlay={true} loop muted={true}/>
           <div className="itemInfo">
             <div className="icons">
-              <PlayArrow />
-              <Add />
-              <ThumbUpAltOutlined />
-              <ThumbDownOutlined />
+                <PlayArrow className="icon"/>
+                <Add className="icon"/>
+                <ThumbUpAltOutlined className="icon"/>
+                <ThumbDownOutlined className="icon"/>
             </div>
             <div className="itemInfoTop">
-              <span>1hour 14 mins</span>
+              <span>1 hour 14 mins</span>
               <span className="limit">+16</span>
               <span>2022</span>
             </div>

@@ -25,4 +25,3 @@ También puedes ver cualquier error de lint en la consola.
 
 
 https://user-images.githubusercontent.com/72781778/178127011-76ee7e16-126b-4bc1-bac7-5266e206a116.mp4
-

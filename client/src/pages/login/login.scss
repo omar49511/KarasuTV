@@ -73,6 +73,19 @@
                 color: lightgray;
                 b{
                     color: #fff;
+                    cursor: pointer;
+                    &:hover{
+                        border-bottom: 1px solid #fff;
+                    }
+                }
+            }
+            small{
+                b{
+                    color: #fff;
+                    cursor: pointer;
+                    &:hover{
+                        border-bottom: 1px solid #fff;
+                    }
                 }
             }
         }
